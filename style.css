@@ -12,7 +12,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-size: 1em;
+    font-size: 1.2rem;
 
 }
 
@@ -57,12 +57,12 @@ section{
     font-size: 2.5vw;
 }
 section#img01{
-    background-image: url(https://github.com/cllepri/Cordel/blob/main/imagens/background001.jpg);
+    background-image: url('./imagens/background001.jpg');
     background-position: right center;
     background-size: cover;
 }
 section#img02{
-    background-image: url(https://github.com/cllepri/Cordel/blob/main/pacote-d012/imagens/background002.jpg);
+    background-image: url('./imagens/background002.jpg');
     background-position: left top;
     background-size: cover;
 }
@@ -90,9 +90,18 @@ section.imagem > p{
     text-shadow: 1px 1px 0px black;
     
 }
-footer{
+footer p{
+    font-size: 0.5rem;
     background-color: black;
     color: white;
     text-align: center;
     padding: 10px;
+}
+footer span{
+    font-size: 0.5rem;
+    background-color: black;
+    color: magenta;
+    font-weight: 600;
+    text-align: center;
+    /* padding: 10px; */
 }
